@@ -60,7 +60,7 @@ code
 ## 4. Setup (Terminal Only)
 
 ### Create and activate venv
-```bash
+bash
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
