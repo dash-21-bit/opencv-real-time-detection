@@ -65,7 +65,7 @@ python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 
-Install deps
+## Install deps
 
 bash
 
@@ -73,31 +73,31 @@ pip install -r requirements.txt
 pip install -e .
 
 
-Run
+## Run
 
 bash
 
 python scripts/run_image.py
 
-Run  (real-time)
+## Run  (real-time)
 
 bash
 
 python scripts/run_webcam.py
 
 
-Controls:
+## Controls:
 	•	Press s to save screenshot → outputs/images/screenshot_*.jpg
 	•	Press q to quit
 
-Output files:
+## Output files:
 	•	outputs/videos/webcam_output.mp4
 	•	outputs/images/screenshot_*.jpg
 
 
-7. Technical Notes
+## 7. Technical Notes
 
-7.1 Why grayscale?
+## 7.1 Why grayscale?
 
 Haar cascades operate on intensity patterns, so frames are converted from BGR to grayscale before detection.
 
