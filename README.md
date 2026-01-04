@@ -67,24 +67,23 @@ python -m pip install --upgrade pip
 ```
 ## Install deps
 
-bash
+```bash
 
 pip install -r requirements.txt
 pip install -e .
-
+```
 
 ## Run
 
-bash
+```bash
 
 python scripts/run_image.py
-
+```
 ## Run  (real-time)
-
-bash
+```bash
 
 python scripts/run_webcam.py
-
+```
 
 ## Controls:
 	•	Press s to save screenshot → outputs/images/screenshot_*.jpg
